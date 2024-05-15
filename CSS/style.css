@@ -1,0 +1,75 @@
+.background {
+  background-image: url("../close-up-kid-learning-online.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  filter: blur(5px);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.inputs {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background-color: #151515;
+  position: relative;
+  z-index: 9999;
+  top: 25%;
+  bottom: 0;
+}
+h1 {
+  color: #ffc55a;
+}
+h2 {
+  color: white;
+}
+#signinEmail,
+#signinPassword,
+#signupEmail,
+#signupPassword,
+#userName {
+  background-color: transparent;
+  color: #ffffff !important;
+  &:focus {
+    border: 1px solid #ffc55a;
+  }
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.25);
+}
+.form-control::placeholder {
+  color: white;
+}
+button {
+  border: 1px solid #ffc55a;
+  background-color: transparent;
+  color: #ffc55a;
+  border-radius: 5px;
+  &:hover {
+    background-color: #ffc55a;
+    color: white;
+  }
+}
+.h-65 {
+  height: 65%;
+}
+nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background-color: #151515;
+  height: 60px;
+}
+.welcome {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  color: #ffc55a;
+}
+.logout:hover {
+  background-color: #ffc55a;
+}
+.welcomeuser {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  h2 {
+    color: #151515;
+    text-transform: capitalize;
+  }
+}

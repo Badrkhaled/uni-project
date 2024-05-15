@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Primary Meta Tags -->
+    <title>Login</title>
+    <meta name="title" content="Login" />
+    <meta name="description" content="an e-commerce provide many products" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Login.com" />
+    <meta property="og:title" content="Login" />
+    <meta
+      property="og:description"
+      content="an e-commerce provide many products" />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://Login.com" />
+    <meta property="twitter:title" content="Login" />
+    <meta
+      property="twitter:description"
+      content="an e-commerce provide many products" />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png" />
+
+    <link rel="icon" href />
+
+    <!-- ^===========> Font awesome library Icon -->
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <!-- ^===========> Animate.CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ^===========> Bootstrap  -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!-- *===========> Main Stylesheet  -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body data-bs-spy="scroll">
+    <main
+      class="signInPage container-fluid d-flex justify-content-center vh-100 ">
+      <div class="background w-100 vh-100"></div>
+      <div class="inputs row text-center w-50 h-50 pt-5 p-4 ">
+
+        <h1>School System</h1>
+        <input id="signinEmail" class="form-control my-3"
+          placeholder="Enter your email" type="text">
+        <input id="signinPassword" class="form-control mb-3"
+          placeholder="Enter your password" type="password">
+
+        <h3 class="incorrect fs-6 text-danger d-none">Please fill the
+          requirments</h3>
+        <h3 class="fault fs-6 text-danger d-none">Email or Password is
+          incorrect <br>
+          <span class="text-warning">Go and sign up</span>
+        </h3>
+
+        <a class="link"><button type="button"
+            onclick="login()"
+            class=" submitBtn col-12 p-0">Login</button></a>
+        <h2 class="fs-6 p-2">Don't have an account? <a href="signup.html">Sign
+            Up</a></h2>
+      </div>
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

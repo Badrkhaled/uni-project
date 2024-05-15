@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Primary Meta Tags -->
+        <title>Sign up</title>
+        <meta name="title" content="Sign up" />
+        <meta name="description"
+            content="an e-commerce provide many products" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://Sign up.com" />
+        <meta property="og:title" content="Sign up" />
+        <meta
+            property="og:description"
+            content="an e-commerce provide many products" />
+        <meta
+            property="og:image"
+            content="https://metatags.io/images/meta-tags.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://Sign up.com" />
+        <meta property="twitter:title" content="Sign up" />
+        <meta
+            property="twitter:description"
+            content="an e-commerce provide many products" />
+        <meta
+            property="twitter:image"
+            content="https://metatags.io/images/meta-tags.png" />
+
+        <link rel="icon" href />
+
+        <!-- ^===========> Font awesome library Icon -->
+        <link rel="stylesheet" href="./CSS/all.min.css" />
+        <!-- ^===========> Animate.CSS  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- ^===========> Bootstrap  -->
+        <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+        <!-- *===========> Main Stylesheet  -->
+        <link rel="stylesheet" href="./CSS/style.css" />
+    </head>
+    <body>
+        <main
+            class="signUpPage container-fluid d-flex justify-content-center vh-100 ">
+            <div class="background w-100 vh-100"></div>
+            <div class="inputs row text-center w-50 h-65 pt-5 p-4">
+
+                <h1>School System</h1>
+                <input type="text" id="userName" placeholder="Enter your name"
+                    class="form-control">
+                <input id="signupEmail" class="form-control my-3"
+                    placeholder="Enter your email" type="text">
+                <input id="signupPassword" class="form-control mb-3"
+                    placeholder="Enter your password" type="password">
+                <h3 class="success fs-5 text-success d-none">success</h3>
+                <h3 class="exist fs-5 text-warning d-none">Email is already
+                    existing</h3>
+                <button type="button" onclick="signUp()"
+                    class=" submitBtn col-12 p-0">Sign Up</button>
+                <h2 class="fs-6 p-2">Don't have an account? <a
+                        href="index.html">Sign
+                        in</a></h2>
+            </div>
+        </main>
+        <script src="js/index.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
